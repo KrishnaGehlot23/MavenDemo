@@ -39,4 +39,10 @@ public class GooglePage {
 			System.out.println("AutoSuggestion are : "+webElement.getText());
 		}
 	}
+	
+	public void getAllAppIcon(String str) {
+		for (WebElement webElement : allAppIcon) {
+			System.out.println("AutoSuggestion are : "+webElement.getText());
+		}
+	}
 }
